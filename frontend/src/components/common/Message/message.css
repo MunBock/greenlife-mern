@@ -1,0 +1,15 @@
+.message-place {
+  display: flex;
+  justify-content: center;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 65px;
+  font-weight: 600;
+  color: white;
+  background: rgb(0, 0, 0, 0.7);
+}

@@ -1,0 +1,49 @@
+.steps-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.steps-nav-link {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  padding: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+
+.steps-nav-link:hover {
+  color: black;
+}
+
+.steps-nav-link-active {
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+  padding: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+
+.steps-nav-link-active:hover {
+  color: black;
+}
+
+.steps-nav-link-disabled {
+  text-decoration: none;
+  color: grey;
+  cursor: text;
+  padding: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+
+.steps-nav-link-disabled:hover {
+  color: grey;
+}

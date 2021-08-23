@@ -1,0 +1,138 @@
+.edit-place {
+  width: 100%;
+  height: 84vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 25px;
+}
+
+.edit-form {
+  height: 84vh;
+  max-height: 84vh;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow-y: auto;
+}
+
+.edit-form-title-container {
+  position: relative;
+  top: -20px;
+  display: flex;
+  border-bottom: 1px solid grey;
+}
+
+.edit-form-title {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.product-list-link {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.product-list-link:hover {
+  color: black;
+}
+
+.edit-group {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.edit-label {
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  margin-right: 70px;
+}
+
+.edit-image-group {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.edit-image-label {
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  margin-right: 158px;
+}
+
+.edit-input {
+  width: 300px;
+  height: 40px;
+  margin-left: auto;
+}
+
+.edit-input::-webkit-outer-spin-button,
+.edit-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.edit-input:focus {
+  outline: none;
+}
+
+.edit-input-textarea {
+  width: 300px;
+  height: 80px;
+  min-height: 80px;
+  margin-left: auto;
+  resize: none;
+  overflow: hidden;
+}
+
+.edit-input-textarea:focus {
+  outline: none;
+}
+
+.image-uploading {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.uploaded-image {
+  width: 520px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.edit-button {
+  display: block;
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+  background: black;
+  color: white;
+  border-radius: 2px;
+  margin-left: auto;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.edit-button:hover {
+  background: white;
+  color: black;
+}
+
+.disabled-edit-button {
+  display: block;
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+  background: black;
+  color: white;
+  border-radius: 2px;
+  margin-left: auto;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  opacity: 0.5;
+}

@@ -1,0 +1,230 @@
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  box-shadow: 0px 15px 10px -15px rgba(100, 100, 111, 0.2);
+  user-select: none;
+}
+
+.nav-brand {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 20px;
+  margin-left: 80px;
+  font-weight: 600;
+}
+
+.nav-brand:hover {
+  color: black;
+}
+
+.nav-cart {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.nav-cart:hover {
+  color: black;
+}
+
+.nav-my-order {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.nav-my-order:hover {
+  color: black;
+}
+
+.nav-create {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.nav-create:hover {
+  color: black;
+}
+
+.nav-admin {
+  display: flex;
+  font-size: 18px;
+}
+
+.nav-order-list {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.nav-order-list:hover {
+  color: black;
+}
+
+.nav-product-list {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.nav-product-list:hover {
+  color: black;
+}
+
+.nav-greeting {
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.nav-logout {
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 80px;
+  border: 1px solid black;
+  padding: 6px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.nav-logout:hover {
+  color: white;
+  background: black;
+}
+
+.nav-login {
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 6px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-left: auto;
+  margin-right: 80px;
+}
+
+.nav-login:hover {
+  color: white;
+  background: black;
+}
+
+.icon {
+  margin-right: 4px;
+}
+
+.nav-dropdown-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+}
+
+.nav-dropdown {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 200px;
+  color: white;
+  background: white;
+  border-radius: 10px;
+  z-index: 1;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.nav-dropdown-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-cart-icon {
+  margin-right: 4px;
+}
+
+.dropdown-icon {
+  margin-right: 10px;
+}
+
+.nav-dropdown-cart,
+.nav-dropdown-my-order,
+.nav-dropdown-create,
+.nav-dropdown-product-list,
+.nav-dropdown-order-list,
+.nav-dropdown-login {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+.nav-dropdown-logout {
+  font-size: 20px;
+  color: black;
+  padding: 10px;
+}
+
+.nav-dropdown-cart:hover,
+.nav-dropdown-my-order:hover,
+.nav-dropdown-create:hover,
+.nav-dropdown-product-list:hover,
+.nav-dropdown-order-list:hover,
+.nav-dropdown-login:hover {
+  color: black;
+  background: #f7f7f7;
+}
+
+.nav-dropdown-logout:hover {
+  background: #f7f7f7;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 960px) {
+  .nav-dropdown {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .nav-dropdown-icon {
+    position: absolute;
+    top: 8px;
+    right: 20px;
+    opacity: 1;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .nav-brand {
+    margin-left: 20px;
+  }
+
+  .nav-cart,
+  .nav-my-order,
+  .nav-admin,
+  .nav-greeting,
+  .nav-logout,
+  .nav-login {
+    display: none;
+  }
+}

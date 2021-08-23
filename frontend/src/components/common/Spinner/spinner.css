@@ -1,0 +1,22 @@
+.spinner-place {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.spinner {
+  width: 100px;
+  height: 100px;
+  border: 8px solid white;
+  border-top: 3px solid black;
+  border-left: 2px solid black;
+  border-bottom: 3px solid black;
+  border-radius: 50%;
+  animation: spinning 1.5s ease infinite;
+}
+
+@keyframes spinning {
+  to {
+    transform: rotate(2turn);
+  }
+}

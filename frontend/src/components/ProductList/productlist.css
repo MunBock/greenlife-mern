@@ -1,0 +1,135 @@
+.product-list-top {
+  display: flex;
+}
+
+.product-list-top-title {
+  margin: 30px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.product-list-top-create {
+  margin: 30px 50px 0 0;
+  margin-left: auto;
+}
+
+.create-button {
+  width: 120px;
+  text-decoration: none;
+  color: black;
+  background: white;
+  font-size: 18px;
+  padding: 5px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.create-button:hover {
+  color: white;
+  background: black;
+}
+
+.product-table-place {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.product-table-size {
+  width: 1000px;
+}
+
+.product-table-header {
+  height: 50px;
+  border-bottom: 1px solid black;
+}
+
+.product-table-product-image {
+  text-align: center;
+  width: 10%;
+}
+
+.product-table-product-id {
+  text-align: center;
+  width: 10%;
+}
+
+.product-table-product-name {
+  text-align: center;
+  width: 20%;
+}
+
+.product-table-product-price {
+  text-align: center;
+  width: 10%;
+}
+
+.product-table-product-stock {
+  text-align: center;
+  width: 20%;
+}
+
+.product-table-product-description {
+  text-align: center;
+  width: 20%;
+}
+
+.product-table-button {
+  text-align: center;
+  width: 10%;
+}
+
+.product-table-content-row {
+  border-bottom: 1px solid grey;
+}
+
+.product-table-product-image-content,
+.product-table-product-id-content,
+.product-table-product-name-content,
+.product-table-product-price-content,
+.product-table-product-stock-content {
+  text-align: center;
+  height: 100px;
+}
+
+.product-table-product-description-content {
+  text-align: start;
+}
+
+.product-table-product-description-content-box {
+  width: 300px;
+  height: 130px;
+  word-wrap: break-word;
+  margin: 8px;
+  border: 1px solid #f7f7f7;
+}
+
+.product-table-product-image-content-size {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.product-list-icons {
+  text-align: center;
+}
+
+.product-list-icon {
+  color: black;
+  margin: 5px;
+}
+
+.product-list-icon:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.update-link {
+  text-decoration: none;
+  color: black;
+}
+
+.update-link:hover {
+  color: black;
+}

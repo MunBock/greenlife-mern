@@ -1,0 +1,86 @@
+.order-list-title {
+  margin: 30px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.table-place {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.table-size {
+  width: 1000px;
+}
+
+.table-header {
+  height: 50px;
+  border-bottom: 1px solid black;
+}
+
+.table-order-id {
+  text-align: center;
+  width: 30%;
+}
+
+.table-user {
+  text-align: center;
+  width: 20%;
+}
+
+.table-date {
+  text-align: center;
+  width: 20%;
+}
+
+.table-total-price {
+  text-align: center;
+  width: 20%;
+}
+
+.table-button {
+  width: 10%;
+}
+
+.table-body {
+  margin: 10px;
+}
+
+.table-content-row {
+  border-bottom: 1px solid grey;
+}
+
+.table-order-id-content,
+.table-user-content,
+.table-date-content,
+.table-total-price-content {
+  text-align: center;
+  height: 50px;
+}
+
+.order-list-button {
+  text-decoration: none;
+  color: white;
+  background: black;
+  border: 1px solid black;
+  padding: 6px;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.order-list-button:hover {
+  color: black;
+  background: white;
+}
+
+@media screen and (max-width: 560px) {
+  .table-place {
+    display: flex;
+    justify-content: center;
+    margin: 3px;
+  }
+}

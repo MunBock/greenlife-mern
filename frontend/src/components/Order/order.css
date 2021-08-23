@@ -1,0 +1,213 @@
+.order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.order-place {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.order-brand-logo {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.order-confirm {
+  font-size: 24px;
+  color: black;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.order-greeting {
+  font-size: 18px;
+  color: black;
+  font-weight: 600;
+}
+
+.order-confirm-shipping {
+  font-size: 14px;
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.order-information {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  margin-bottom: 20px;
+}
+
+.order-date,
+.order-id,
+.order-payment,
+.order-delivery-address {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0 10px 0;
+}
+
+.order-delivery-address {
+  width: 220px;
+}
+
+.order-date-title,
+.order-id-title,
+.order-payment-title,
+.order-delivery-address-title {
+  font-size: 13px;
+}
+
+.order-date-content,
+.order-id-content,
+.order-payment-content {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.order-delivery-address-content {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.paypal-image {
+  width: 50px;
+  height: 30px;
+  object-fit: cover;
+}
+
+.order-items {
+  margin-bottom: 10px;
+}
+
+.order-item {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.order-item-content {
+  padding: 10px;
+}
+
+.order-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.order-item-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.order-item-price {
+  font-size: 16px;
+}
+
+.order-item-quantity {
+  margin-top: 5px;
+  font-size: 13px;
+}
+.order-item-total-price {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.order-receipt {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 10px 0px 10px 10px;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+
+.order-items-price,
+.order-delivery-fee {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.order-total-price {
+  display: flex;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  border-top: 1px solid grey;
+}
+
+.order-items-price-title,
+.order-delivery-fee-title {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.order-total-price-title {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.order-items-price-content,
+.order-delivery-fee-content {
+  font-size: 18px;
+  margin-left: auto;
+}
+
+.order-total-price-content {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: auto;
+}
+
+.email-confirmation {
+  font-size: 15px;
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.appreciate-form {
+  display: flex;
+  border-top: 1px solid grey;
+  padding-top: 20px;
+}
+
+.thanks {
+  margin-right: auto;
+}
+
+.thanks-content {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.representative {
+  margin-top: 3px;
+  font-size: 15px;
+}
+
+.contact {
+  margin-left: auto;
+}
+
+.contact-title {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.contact-number {
+  margin-top: 3px;
+  font-size: 15px;
+}

@@ -1,0 +1,158 @@
+.payment-title {
+  position: relative;
+  top: -30px;
+  font-size: 30px;
+  font-weight: 400;
+  border-bottom: 1px solid grey;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.payment-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.payment-form {
+  margin-top: 30px;
+  padding: 60px 40px 40px 40px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.payment-group {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.payment-input {
+  width: 20px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.payment-content-label {
+  display: block;
+  margin: 10px;
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.payment-input {
+  position: absolute;
+  opacity: 0;
+}
+
+.payment-custom-radio-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 28px;
+  width: 28px;
+  background-color: white;
+  border: 2.5px solid #bbbbbb;
+  border-radius: 50%;
+}
+
+.payment-content-label:hover .payment-input ~ .payment-custom-radio-button {
+  /* background-color: #ccc; */
+  border: 2.5px solid black;
+}
+
+.payment-content-label .payment-input:checked ~ .payment-custom-radio-button {
+  background-color: black;
+  border: none;
+}
+
+.payment-custom-radio-button:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.payment-input:checked ~ .payment-custom-radio-button:after {
+  display: block;
+}
+
+.payment-custom-radio-button:after {
+  top: 8px;
+  left: 8px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: white;
+}
+
+.payment-input-title {
+  position: relative;
+  top: -2px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.payment-button {
+  display: block;
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+  background: black;
+  color: white;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.payment-button:hover {
+  background: white;
+  color: black;
+}
+
+.payment-content {
+  display: flex;
+  align-items: center;
+  width: 500px;
+}
+
+.payment-content-logo {
+  display: block;
+  margin-left: auto;
+}
+
+.paypal-logo {
+  width: 150px;
+  height: 30px;
+  object-fit: cover;
+}
+
+.shipping-information {
+  margin: 40px 0 10px 70px;
+  padding: 15px 10px 0px 15px;
+  border: 1px solid #cfdaea;
+  width: 350px;
+}
+
+.shipping-information-title {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.shipping-address {
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+
+.shipping-city {
+  margin-bottom: 2px;
+}
+
+.shipping-postal-code {
+  margin-bottom: 2px;
+}
+
+.shipping-country {
+  margin-bottom: 10px;
+}

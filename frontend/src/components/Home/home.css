@@ -1,0 +1,23 @@
+:root {
+  width: 100vw;
+}
+
+.home-grip {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  margin: 20px 0 0 80px;
+}
+
+@media only screen and (max-width: 735px) {
+  .home-grip {
+    margin-left: 30px;
+    grid-template-columns: 300px 300px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .home-grip {
+    margin-left: 95px;
+    grid-template-columns: 300px;
+  }
+}
