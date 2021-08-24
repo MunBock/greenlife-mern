@@ -1,6 +1,6 @@
 # greenlife-mern
 
-> An e-Restaurant (online food ordering) application built with the MERN stack and Redux.
+> An e-Restaurant (online food ordering) application built with the MERN stack and Redux. Also, cloudinary is used to upload and store the product image.
 > [Live demo](https://greenlife-mern.herokuapp.com/)
 
 ## Features
